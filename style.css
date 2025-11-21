@@ -1,0 +1,152 @@
+header{ 
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+    background-color: rgb(255, 212, 212);
+    width: 100%;
+}
+.introduccion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduccion h1{
+color: rgb(211, 175, 83);
+  font-family: "Abril Fatface", serif;
+  font: weight 400;
+  font-style: normal;
+     font-size: 80px;
+}
+.main{
+display: flex;
+width: 100%;
+margin: 10px 0 10px 0;
+flex-direction: column
+}
+.fecha{
+       display: block;
+       margin: 0 auto;
+    text-align: center;
+}
+.inse{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body{
+ background-image: url('owo.jpg');
+
+height: 100vh;
+display: grid;
+place-content: center;
+overflow: hidden;
+}
+#button{
+    position: relative;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+#miboton:hover{
+ background-color: #e8d78d;
+ box-shadow: 0 0 5px #e8d78d, 0 0 25px #e8d78d, 0 0 50px #e8d78d, 0 0 100px #e8d78d, 0 0 300px #e8d78d;
+}
+#miBoton {
+    /* Establece las mismas dimensiones para que sea cuadrado */
+    width: 130px;
+    height: 70px;
+    
+    /* Aplica border-radius al 50% para redondear completamente */
+    border-radius: 50%; 
+    
+    /* Centra el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Estilos adicionales para apariencia */
+    background-color: #ffbaba; /* Un color rosa bonito */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    /* Margen para separarlo del texto */
+    margin-top: 10px;
+}
+#mi:hover{
+ background-color: #e8d78d;
+ box-shadow: 0 0 5px #e8d78d, 0 0 25px #e8d78d, 0 0 50px #e8d78d, 0 0 100px #e8d78d, 0 0 300px #e8d78d;
+}
+#mi {
+    /* Establece las mismas dimensiones para que sea cuadrado */
+    width: 130px;
+    height: 70px;
+    
+    /* Aplica border-radius al 50% para redondear completamente */
+    border-radius: 50%; 
+    
+    /* Centra el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Estilos adicionales para apariencia */
+    background-color: #ffbaba; /* Un color rosa bonito */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    /* Margen para separarlo del texto */
+    margin-top: 10px;
+}
+#button{
+    position: relative;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 22px;
+    transition: .3s linear;
+    cursor: pointer;
+}
+#miss:hover{
+ background-color: #e8d78d;
+ box-shadow: 0 0 5px #e8d78d, 0 0 25px #e8d78d, 0 0 50px #e8d78d, 0 0 100px #e8d78d, 0 0 300px #e8d78d;
+}
+#miss{
+    /* Establece las mismas dimensiones para que sea cuadrado */
+    width: 130px;
+    height: 70px;
+    
+    /* Aplica border-radius al 50% para redondear completamente */
+    border-radius: 50%; 
+    
+    /* Centra el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Estilos adicionales para apariencia */
+    background-color: #ffbaba; /* Un color rosa bonito */
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+    /* Margen para separarlo del texto */
+    margin-top: 10px;
+}
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  font: weight 400;
+}
